@@ -74,8 +74,8 @@ The numerical results and precise scope are in
 [reproduction_report.md](reproduction_report.md). Stored machine-readable
 reports contain maximum numerical differences and trajectory hashes.
 
-The author confirms publication rights for this extraction. No downstream reuse
-license has been selected yet; see [NOTICE](../NOTICE).
+The author confirms publication rights for this extraction. Python source uses
+MIT, and documentation/evidence use CC BY 4.0; see [NOTICE](../NOTICE).
 Phase 1 validates a local research foundation, not a security guarantee or a
 claim about reference accuracy. General timestamp mode does not interpolate
 reference gaps. Callers must supply evidence masks and discrepancies appropriate

@@ -90,8 +90,9 @@ paths were checked. No repository-wide license or grant was found. Numerical
 modules carry no additional copyright/license notices. The only tracked
 `LICENSE` is in the unrelated `ugv01_gps_dev` subtree, which was not copied.
 The author confirms they created the code and have rights to publish the
-extracted code and evidence in this repository. No downstream reuse license has
-been selected or assigned. Attribution and this distinction are recorded in
+extracted code and evidence in this repository. Python source is MIT licensed;
+documentation, configuration, and evidence are CC BY 4.0. Scope is recorded in
+[LICENSE](../LICENSE), [LICENSE-CC-BY-4.0](../LICENSE-CC-BY-4.0), and
 [NOTICE](../NOTICE).
 
 Copied evidence is restricted to the three primary delivery points: 360 seed

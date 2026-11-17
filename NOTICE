@@ -11,10 +11,12 @@ this extraction confirms they created the code and have the rights to publish
 the extracted code and evidence in this repository. The separately licensed
 ugv01_gps_dev subtree is unrelated and was not copied.
 
-No license has yet been selected for downstream reuse. This notice documents
-the author's confirmation of publication rights; it does not grant a license
-to downstream users. Add the chosen license terms before inviting reuse or
-publishing this as a generally reusable package. Source attribution must remain.
+Python software source files (*.py), including the package modules, scripts,
+and tests, are licensed under the MIT License in LICENSE. Documentation,
+configuration data, archived evidence, and other non-code materials are
+licensed under CC BY 4.0 as described in LICENSE-CC-BY-4.0. The package metadata
+uses MIT for the installable Python distribution. Retain applicable attribution
+and notices when reusing materials.
 
 tests/original_oracle.py contains verbatim numerical function bodies from the
 pinned commit, solely for regression comparison. It is excluded from the wheel.

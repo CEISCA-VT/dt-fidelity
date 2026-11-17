@@ -78,5 +78,5 @@ query-phase sensitivity, network captures, or optimization claims. Synthetic
 unit-test traces establish edge-case behavior only; none is counted as
 historical i2Nav reproduction. Reference quality/uncertainty and availability
 remain the responsibility of each future experiment. The author confirms rights
-to publish this extraction; a downstream reuse license has not been selected,
-as explained in [source provenance](source_provenance.md).
+to publish this extraction. Code uses MIT; documentation and evidence use CC BY
+4.0, as explained in [source provenance](source_provenance.md).

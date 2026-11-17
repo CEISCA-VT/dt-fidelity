@@ -21,6 +21,8 @@ local scratch files, and the generated wheel in `dist/` are excluded.
 - [evidence/validation/per_run_replay.csv](../evidence/validation/per_run_replay.csv)
 - [evidence/validation/replay_report.json](../evidence/validation/replay_report.json)
 - [NOTICE](../NOTICE)
+- [LICENSE](../LICENSE)
+- [LICENSE-CC-BY-4.0](../LICENSE-CC-BY-4.0)
 - [pyproject.toml](../pyproject.toml)
 - [README.md](../README.md)
 - [scripts/check_source_provenance.py](../scripts/check_source_provenance.py)
@@ -35,4 +37,4 @@ local scratch files, and the generated wheel in `dist/` are excluded.
 - [tests/original_oracle.py](../tests/original_oracle.py)
 - [tests/test_fidelity.py](../tests/test_fidelity.py)
 
-31 delivered source, configuration, test, documentation, and evidence files.
+33 delivered source, license, configuration, test, documentation, and evidence files.

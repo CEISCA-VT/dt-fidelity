@@ -1,13 +1,20 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "dt-fidelity"
 version = "0.1.0"
 description = "Receiver-side service fidelity evaluation of frozen source states"
+readme = "README.md"
 requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
 dependencies = ["numpy>=1.24"]
+
+[project.urls]
+Repository = "https://github.com/CEISCA-VT/dt-fidelity"
+Documentation = "https://github.com/CEISCA-VT/dt-fidelity#readme"
 
 [project.optional-dependencies]
 test = ["pytest>=8"]
