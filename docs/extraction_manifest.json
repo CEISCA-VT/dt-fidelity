@@ -1,0 +1,90 @@
+{
+  "source_commit": "639bc9d92886adf83debcbec8219736efa5cae1e",
+  "license_notice": "../NOTICE",
+  "entries": [
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "SERVICES, TARGET, MIN_COVERAGE",
+      "destination": "configs/original_services.json; src/dt_fidelity/contracts.py",
+      "implementation": "minimally adapted",
+      "notes": "Same four contracts and units; component mappings replace robot-specific argument dictionaries."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "wrap; relative",
+      "destination": "src/dt_fidelity/evaluator.py:wrap, relative",
+      "implementation": "preserved numerical implementation",
+      "notes": "Only formatting and descriptive names differ; modulo interval and body-frame rotations unchanged."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "delivered_indices",
+      "destination": "src/dt_fidelity/receiver.py:nanoseconds, periodic_delivery, reconstruct",
+      "implementation": "minimally adapted",
+      "notes": "Preserves rounded nanosecond clock and native rate stride; separates availability and arrival; accepts arbitrary arrival histories."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/deterministic_delivery_replay.py",
+      "original_function": "sampled_delivery (arrival-order newest-source loop)",
+      "destination": "src/dt_fidelity/receiver.py:reconstruct",
+      "implementation": "minimally adapted numerical logic",
+      "notes": "Stable arrival ordering and cumulative maximum source index; increasing timestamps make this the same newest-source rule. No jitter/loss generator copied."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "evaluate",
+      "destination": "src/dt_fidelity/evaluator.py:pose_discrepancy, evaluate",
+      "implementation": "minimally adapted",
+      "notes": "Same SE(2) equations, age and inclusive checks. Explicit endpoint masks; NaN empty satisfaction per manuscript; native index horizons selectable; component/sample diagnostics replace fixed episode summary."
+    },
+    {
+      "source_path": "scripts/build_review_revision_20261109.py",
+      "original_function": "reference_mask_evaluation",
+      "destination": "src/dt_fidelity/evaluator.py:evaluate, outcome",
+      "implementation": "minimally adapted",
+      "notes": "Both reference endpoints required; unavailable evidence excluded from satisfaction and retained in coverage denominator; NaN if none observable."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "response_rows; sequence_rows",
+      "destination": "scripts/replay_original_cases.py; scripts/verify_archived_evidence.py:aggregate",
+      "implementation": "minimally adapted necessary aggregation",
+      "notes": "Only three primary conditions and outer-test cases. Mean fractions across three seeds before qualifying. CSV and NumPy replace pandas; no screening/features/calibration copied."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_evidence_from_bank.py",
+      "original_function": "validate_bank_sources; _remediability",
+      "destination": "scripts/replay_original_cases.py; scripts/verify_archived_evidence.py",
+      "implementation": "minimally adapted validation",
+      "notes": "30 primary outer-test identities/hashes only; reject missing or mismatching exports; nested source filtering kept."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "remediability; _contract_status",
+      "destination": "src/dt_fidelity/remediability.py; src/dt_fidelity/evaluator.py:outcome",
+      "implementation": "adapted to manuscript definition",
+      "notes": "Already-degraded qualification takes precedence; unobservable is separate. Historical labels unchanged. Delivery comparisons reuse supplied frozen arrays."
+    },
+    {
+      "source_path": "scripts/audit_review_evidence.py",
+      "original_function": "main (seed aggregation and three-condition pattern checks)",
+      "destination": "scripts/verify_archived_evidence.py",
+      "implementation": "minimally adapted necessary audit",
+      "notes": "Recompute from row-level fractions, compare saved cells/ledger and only then manifest totals. No optimizer, screen or query-phase suite."
+    },
+    {
+      "source_path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "original_function": "wrap; relative; delivered_indices; episodes; evaluate",
+      "destination": "tests/original_oracle.py",
+      "implementation": "verbatim function bodies",
+      "notes": "Read from pinned Git object. NumPy and constants supplied locally; no heavy module imports; test-only, excluded from wheel."
+    },
+    {
+      "source_path": "scripts/build_review_revision_20261109.py",
+      "original_function": "reference_mask_evaluation",
+      "destination": "tests/original_oracle.py",
+      "implementation": "verbatim function body",
+      "notes": "Minimal constant/function namespace replaces original base import; test-only."
+    }
+  ]
+}

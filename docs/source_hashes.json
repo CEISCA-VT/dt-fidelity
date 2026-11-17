@@ -1,0 +1,76 @@
+{
+  "commit": "639bc9d92886adf83debcbec8219736efa5cae1e",
+  "files": [
+    {
+      "path": "docs/paper_submission.md",
+      "pinned_sha256": "8a4de17ce16e93dbc8179a88aed0d47e49c52c922c2887329bbef7b14f46c775",
+      "working_sha256": "8a4de17ce16e93dbc8179a88aed0d47e49c52c922c2887329bbef7b14f46c775"
+    },
+    {
+      "path": "manuscript/main.tex",
+      "pinned_sha256": "59f7531cb3242a1dd0b05575b4f626189f762c90b0a6751dc76fdd3b50acf94d",
+      "working_sha256": "1fe9e6909fd61b2922aa12e842f3550a13e9ef6a6a6161b5417840ba264c177e"
+    },
+    {
+      "path": "manuscript/reproducibility_notes.tex",
+      "pinned_sha256": "c2885ce292d2aa0165cac13b3c836352e26e2e577848912de31402b1642aa538",
+      "working_sha256": "c2885ce292d2aa0165cac13b3c836352e26e2e577848912de31402b1642aa538"
+    },
+    {
+      "path": "DigitalTwin/analysis/service_timing_budget_study.py",
+      "pinned_sha256": "62472777121119fd36a39e464ab1ba575b2e0ab795ac0e43349497c7d42ce31c",
+      "working_sha256": "62472777121119fd36a39e464ab1ba575b2e0ab795ac0e43349497c7d42ce31c"
+    },
+    {
+      "path": "DigitalTwin/analysis/service_evidence_from_bank.py",
+      "pinned_sha256": "5ee22b59bb668686fac31981a74a980b2d0cca3dfe52b5e3d0ff42caaa3612e1",
+      "working_sha256": "5ee22b59bb668686fac31981a74a980b2d0cca3dfe52b5e3d0ff42caaa3612e1"
+    },
+    {
+      "path": "DigitalTwin/analysis/deterministic_delivery_replay.py",
+      "pinned_sha256": "29ea9697f30a4da4060e14d120f58690e8d1964724744d68afcb62b338f69f42",
+      "working_sha256": "29ea9697f30a4da4060e14d120f58690e8d1964724744d68afcb62b338f69f42"
+    },
+    {
+      "path": "DigitalTwin/analysis/delivery_feasibility.py",
+      "pinned_sha256": "04698bd09fb308c8027c25cfda3d7e02fa509ca4e492896b335cc6863ff63341",
+      "working_sha256": "04698bd09fb308c8027c25cfda3d7e02fa509ca4e492896b335cc6863ff63341"
+    },
+    {
+      "path": "scripts/audit_review_evidence.py",
+      "pinned_sha256": "4d4f19f653c03202e5d19f03c7c5305f82a6d50432685539bbe748c088679d7d",
+      "working_sha256": "4d4f19f653c03202e5d19f03c7c5305f82a6d50432685539bbe748c088679d7d"
+    },
+    {
+      "path": "scripts/build_review_revision_20261109.py",
+      "pinned_sha256": "a8ee51add0d4623c9e0287db19e2be84b3c42cacf8fe2e15432e7a5259045d3b",
+      "working_sha256": "a8ee51add0d4623c9e0287db19e2be84b3c42cacf8fe2e15432e7a5259045d3b"
+    }
+  ],
+  "archived_inputs": [
+    {
+      "source": "results/doubly_nested_loso_evidence/per_run_response_surface.csv",
+      "sha256": "ca84acd3576aab9c63076bd24c594aa17d4da09999817df8b58153720d1224fb"
+    },
+    {
+      "source": "results/doubly_nested_loso_evidence/per_sequence_response_surface.csv",
+      "sha256": "8d6081f09abda537bf0c78e9bfd06b08dd0db1164b974fc0e1e04adf89878d77"
+    },
+    {
+      "source": "results/doubly_nested_loso_evidence/sequence_service_case_ledger.csv",
+      "sha256": "99edcf7db42c2684a346149b014f36cd45db171b7f7335088405aa3aed56d439"
+    },
+    {
+      "source": "results/doubly_nested_loso_evidence/evidence_manifest.json",
+      "sha256": "ba803a076e411bef816b37e7831ba2b97d5844cf91b5a49bdd262f4c50a8f889"
+    }
+  ],
+  "portable_fixture_sha256": {
+    "evidence_manifest.json": "4381ce541c3a645ad0afac35ec12548bdfaa3c02d3b46d62391aa655e71bd0e0",
+    "per_run_response_surface.csv": "12e35a618ecc8e0d19d8edc946054311fefba00f974d37917deed4e93025f8da",
+    "per_sequence_response_surface.csv": "1df77e4e184de7318e2eab9dfa0081b960cfc39e3ba8fd06ce06bc32c3757c03",
+    "sequence_service_case_ledger.csv": "bdfa26362a9d1dccb0f54ade30d90af926ba94b560260a186352ec2fc132409b",
+    "trajectory_manifest.json": "716bfdb4830ffc7e312ba2c27588d2be152e8be945452962fee5355e13e4b3ec"
+  },
+  "oracle_sha256": "4dd78ba66f33f4aaa84e909b33efc70cb00241b55cb188bae2675b5e82c44491"
+}

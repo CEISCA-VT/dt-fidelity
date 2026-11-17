@@ -1,0 +1,62 @@
+[
+  {
+    "name": "local_1s",
+    "tolerances": {
+      "position_m": 0.1,
+      "heading_deg": 2.0
+    },
+    "max_age_s": 0.6,
+    "horizon_s": 1.0,
+    "satisfaction": 0.8,
+    "minimum_observability": 0.95,
+    "units": {
+      "position_m": "m",
+      "heading_deg": "degree"
+    }
+  },
+  {
+    "name": "local_5s",
+    "tolerances": {
+      "position_m": 0.2,
+      "heading_deg": 5.0
+    },
+    "max_age_s": 1.0,
+    "horizon_s": 5.0,
+    "satisfaction": 0.8,
+    "minimum_observability": 0.95,
+    "units": {
+      "position_m": "m",
+      "heading_deg": "degree"
+    }
+  },
+  {
+    "name": "local_10s",
+    "tolerances": {
+      "position_m": 0.5,
+      "heading_deg": 10.0
+    },
+    "max_age_s": 1.5,
+    "horizon_s": 10.0,
+    "satisfaction": 0.8,
+    "minimum_observability": 0.95,
+    "units": {
+      "position_m": "m",
+      "heading_deg": "degree"
+    }
+  },
+  {
+    "name": "global",
+    "tolerances": {
+      "position_m": 1.0,
+      "heading_deg": 5.0
+    },
+    "max_age_s": 1.0,
+    "horizon_s": 0.0,
+    "satisfaction": 0.8,
+    "minimum_observability": 0.95,
+    "units": {
+      "position_m": "m",
+      "heading_deg": "degree"
+    }
+  }
+]

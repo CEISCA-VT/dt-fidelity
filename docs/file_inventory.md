@@ -1,0 +1,38 @@
+# Created file inventory
+
+All paths are relative to this repository. Virtual environments, build caches,
+local scratch files, and the generated wheel in `dist/` are excluded.
+
+- [.gitignore](../.gitignore)
+- [configs/original_services.json](../configs/original_services.json)
+- [docs/extraction_manifest.json](../docs/extraction_manifest.json)
+- [docs/file_inventory.md](../docs/file_inventory.md)
+- [docs/phase1_validation.md](../docs/phase1_validation.md)
+- [docs/reproduction_report.md](../docs/reproduction_report.md)
+- [docs/source_hashes.json](../docs/source_hashes.json)
+- [docs/source_provenance.md](../docs/source_provenance.md)
+- [evidence/minimal_regression_fixtures/evidence_manifest.json](../evidence/minimal_regression_fixtures/evidence_manifest.json)
+- [evidence/minimal_regression_fixtures/per_run_response_surface.csv](../evidence/minimal_regression_fixtures/per_run_response_surface.csv)
+- [evidence/minimal_regression_fixtures/per_sequence_response_surface.csv](../evidence/minimal_regression_fixtures/per_sequence_response_surface.csv)
+- [evidence/minimal_regression_fixtures/sequence_service_case_ledger.csv](../evidence/minimal_regression_fixtures/sequence_service_case_ledger.csv)
+- [evidence/minimal_regression_fixtures/trajectory_manifest.json](../evidence/minimal_regression_fixtures/trajectory_manifest.json)
+- [evidence/validation/archive_report.json](../evidence/validation/archive_report.json)
+- [evidence/validation/per_case_replay.csv](../evidence/validation/per_case_replay.csv)
+- [evidence/validation/per_run_replay.csv](../evidence/validation/per_run_replay.csv)
+- [evidence/validation/replay_report.json](../evidence/validation/replay_report.json)
+- [NOTICE](../NOTICE)
+- [pyproject.toml](../pyproject.toml)
+- [README.md](../README.md)
+- [scripts/check_source_provenance.py](../scripts/check_source_provenance.py)
+- [scripts/example.py](../scripts/example.py)
+- [scripts/replay_original_cases.py](../scripts/replay_original_cases.py)
+- [scripts/verify_archived_evidence.py](../scripts/verify_archived_evidence.py)
+- [src/dt_fidelity/__init__.py](../src/dt_fidelity/__init__.py)
+- [src/dt_fidelity/contracts.py](../src/dt_fidelity/contracts.py)
+- [src/dt_fidelity/evaluator.py](../src/dt_fidelity/evaluator.py)
+- [src/dt_fidelity/receiver.py](../src/dt_fidelity/receiver.py)
+- [src/dt_fidelity/remediability.py](../src/dt_fidelity/remediability.py)
+- [tests/original_oracle.py](../tests/original_oracle.py)
+- [tests/test_fidelity.py](../tests/test_fidelity.py)
+
+31 delivered source, configuration, test, documentation, and evidence files.

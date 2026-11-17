@@ -1,0 +1,53 @@
+{
+  "level": "B: independent frozen trajectory replay",
+  "trajectories": 30,
+  "seed_cases": 360,
+  "max_absolute_difference_original": 0.0,
+  "max_absolute_difference_archived": 0.0,
+  "max_absolute_difference_sequence": 2.220446049250313e-16,
+  "cases": 40,
+  "classifications": {
+    "persistent_under_ideal": 6,
+    "delivery_remediable": 30,
+    "already_qualified_degraded": 4
+  },
+  "practical_restored": 27,
+  "patterns": {
+    "000": 6,
+    "001": 3,
+    "011": 27,
+    "111": 4
+  },
+  "trajectory_sha256": {
+    "results/doubly_nested_loso_slurm/outer_building00/outer_test/target_building00/v2/replicate_01_base42/fold_01_building00/v2_evaluated_trajectory.csv": "134b936d31e77740ca608666e9c48aeedccff84612cda26ee81a721b0256d026",
+    "results/doubly_nested_loso_slurm/outer_building00/outer_test/target_building00/v2/replicate_02_base1042/fold_01_building00/v2_evaluated_trajectory.csv": "c202a618447de926c5a589d19b5e874a6e75c9ded87502844bac15a574cc219e",
+    "results/doubly_nested_loso_slurm/outer_building00/outer_test/target_building00/v2/replicate_03_base2042/fold_01_building00/v2_evaluated_trajectory.csv": "17e282903fa6049e1822cb45f6f5ebb011311da5d9a08fb73c608e8e3b72ea40",
+    "results/doubly_nested_loso_slurm/outer_building01/outer_test/target_building01/v2/replicate_01_base42/fold_02_building01/v2_evaluated_trajectory.csv": "e1950e214ba353034e6996b0d50813d7ae394b23efa1eef8bf60f36526c442d9",
+    "results/doubly_nested_loso_slurm/outer_building01/outer_test/target_building01/v2/replicate_02_base1042/fold_02_building01/v2_evaluated_trajectory.csv": "c07e949ee799bafde40d0b658b7ac6239b012e63678270274307b14f6e34fd6e",
+    "results/doubly_nested_loso_slurm/outer_building01/outer_test/target_building01/v2/replicate_03_base2042/fold_02_building01/v2_evaluated_trajectory.csv": "bac9edb059d725cd1bf07ab3500143b0c91e8da27d4bc1edde3cbfb11a3ec8f9",
+    "results/doubly_nested_loso_slurm/outer_building02/outer_test/target_building02/v2/replicate_01_base42/fold_03_building02/v2_evaluated_trajectory.csv": "f76e5daff1a466fab6df2b518bd405b3133f6dd5e36acca9aaafafccd6d63260",
+    "results/doubly_nested_loso_slurm/outer_building02/outer_test/target_building02/v2/replicate_02_base1042/fold_03_building02/v2_evaluated_trajectory.csv": "e30bb97fddae680225b2687d148b1fc86acbf619d263e07bcc2107fbbdcd4cfb",
+    "results/doubly_nested_loso_slurm/outer_building02/outer_test/target_building02/v2/replicate_03_base2042/fold_03_building02/v2_evaluated_trajectory.csv": "f0e6e5155e6e6d798f8fda4ac671b504c13efbcdd70028888d53ddebeccb5abb",
+    "results/doubly_nested_loso_slurm/outer_parking00/outer_test/target_parking00/v2/replicate_01_base42/fold_04_parking00/v2_evaluated_trajectory.csv": "828eddb73db9043454ce0a1b931f678115f9d6fbd3deea524567654dd8f8f217",
+    "results/doubly_nested_loso_slurm/outer_parking00/outer_test/target_parking00/v2/replicate_02_base1042/fold_04_parking00/v2_evaluated_trajectory.csv": "10c09ad921a2c9bfcd986b161b218654892a5cae77ade21f7cd2c24f3a9a1b9b",
+    "results/doubly_nested_loso_slurm/outer_parking00/outer_test/target_parking00/v2/replicate_03_base2042/fold_04_parking00/v2_evaluated_trajectory.csv": "205449652e0b50ee1f7e5f5abde631551c0bf5726538dbf98aae775e4176178e",
+    "results/doubly_nested_loso_slurm/outer_parking01/outer_test/target_parking01/v2/replicate_01_base42/fold_05_parking01/v2_evaluated_trajectory.csv": "b542e236b434cf9b888fcd49fafb8271b335c35c3314e7f9e7a45ec506cec230",
+    "results/doubly_nested_loso_slurm/outer_parking01/outer_test/target_parking01/v2/replicate_02_base1042/fold_05_parking01/v2_evaluated_trajectory.csv": "78919e7abc60dc190d8822e1ec16567a133b4e3324d543353ba340acffc67d43",
+    "results/doubly_nested_loso_slurm/outer_parking01/outer_test/target_parking01/v2/replicate_03_base2042/fold_05_parking01/v2_evaluated_trajectory.csv": "2a45bb8f51ad024c799b06b8a0a5d24065fac9146739653b891ce6d24df13d88",
+    "results/doubly_nested_loso_slurm/outer_parking02/outer_test/target_parking02/v2/replicate_01_base42/fold_06_parking02/v2_evaluated_trajectory.csv": "b40f2e117cf59c6a11178e543a76b081adef79b63520ee14c7cad5faf429dcd6",
+    "results/doubly_nested_loso_slurm/outer_parking02/outer_test/target_parking02/v2/replicate_02_base1042/fold_06_parking02/v2_evaluated_trajectory.csv": "14d28d0aa926214a22f186e2fc89d0a37b76339027c3a30b830f2603b6b1fd87",
+    "results/doubly_nested_loso_slurm/outer_parking02/outer_test/target_parking02/v2/replicate_03_base2042/fold_06_parking02/v2_evaluated_trajectory.csv": "3dcb5de24a4ac4e7eb9f6dcaac433b5fe40d6baea9752fb4cf3740aed41b345e",
+    "results/doubly_nested_loso_slurm/outer_playground00/outer_test/target_playground00/v2/replicate_01_base42/fold_07_playground00/v2_evaluated_trajectory.csv": "8f321f071b503e906668003b61f7671100d5c8ae6ceec2260ee395ccbe5c438e",
+    "results/doubly_nested_loso_slurm/outer_playground00/outer_test/target_playground00/v2/replicate_02_base1042/fold_07_playground00/v2_evaluated_trajectory.csv": "eb31a47a98cdd776c8e8ea5bbb654abe9efef6b11724b9c5413f11fb26e3cf7c",
+    "results/doubly_nested_loso_slurm/outer_playground00/outer_test/target_playground00/v2/replicate_03_base2042/fold_07_playground00/v2_evaluated_trajectory.csv": "c7541e859a5ca161e71a0b7f9ea3008a74783c37629fe405447c1915d0433160",
+    "results/doubly_nested_loso_slurm/outer_street00/outer_test/target_street00/v2/replicate_01_base42/fold_08_street00/v2_evaluated_trajectory.csv": "1f1ae7803385ff76424fe2b9e4bb5802637d80fa8b42c3aec0502b7cf81fed95",
+    "results/doubly_nested_loso_slurm/outer_street00/outer_test/target_street00/v2/replicate_02_base1042/fold_08_street00/v2_evaluated_trajectory.csv": "8a8cd5cebbfc0b7d180fdf312aaba76a45ab335dfba700f52f70e0e7bba3c61b",
+    "results/doubly_nested_loso_slurm/outer_street00/outer_test/target_street00/v2/replicate_03_base2042/fold_08_street00/v2_evaluated_trajectory.csv": "baea8bfa13d9c966ed543cd0124e66600c5a66e3b0d272ea67425b598248f36b",
+    "results/doubly_nested_loso_slurm/outer_street01/outer_test/target_street01/v2/replicate_01_base42/fold_09_street01/v2_evaluated_trajectory.csv": "d239463f3c09ee0d99f0e7e34d2ed37cf29272942f0adb1df46faecb2f7aa512",
+    "results/doubly_nested_loso_slurm/outer_street01/outer_test/target_street01/v2/replicate_02_base1042/fold_09_street01/v2_evaluated_trajectory.csv": "d5cfb40aff13ea63ad9601ea4209de865a00cd6c30db6c1d5f4263d2164d2752",
+    "results/doubly_nested_loso_slurm/outer_street01/outer_test/target_street01/v2/replicate_03_base2042/fold_09_street01/v2_evaluated_trajectory.csv": "ac90ff98f78b358cae5056983f2b396358b6cfb85d2c1b4642d2a1d270f54b94",
+    "results/doubly_nested_loso_slurm/outer_street02/outer_test/target_street02/v2/replicate_01_base42/fold_10_street02/v2_evaluated_trajectory.csv": "e4b907fb2214bc6c97cafb650f03c54ae77f2d307b5f7a0916036ac0571e43d5",
+    "results/doubly_nested_loso_slurm/outer_street02/outer_test/target_street02/v2/replicate_02_base1042/fold_10_street02/v2_evaluated_trajectory.csv": "4fc1a8f30dbbcaffdbd364ec466a25a6efb58d995dea67c4f1c84b8dc074ccc1",
+    "results/doubly_nested_loso_slurm/outer_street02/outer_test/target_street02/v2/replicate_03_base2042/fold_10_street02/v2_evaluated_trajectory.csv": "63a9e4d53ba1cf9eb1b24c2accbd4ab5f42a11cde71381c358a5a009673acdaf"
+  }
+}

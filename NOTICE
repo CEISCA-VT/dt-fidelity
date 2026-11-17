@@ -1,0 +1,18 @@
+This repository contains numerical code extracted/adapted, and small saved
+evidence subsets, from the user's DigitalTwinDivergence research repository.
+Source commit: 639bc9d92886adf83debcbec8219736efa5cae1e.
+Associated manuscript: Digital Twin Fidelity for Networked IoT Services.
+Manuscript authors: Shreyas Udaya, Sreya Viswanadha, Aiden Wiehn,
+and Leyla Nazhandali (authorship is not a determination of code ownership).
+
+No repository-wide LICENSE/COPYING or redistribution grant was found at that
+commit, nor license/copyright notices in the extracted numerical modules.
+The separately licensed ugv01_gps_dev subtree is unrelated and not copied.
+Extraction was performed within the user's expressly requested research work.
+No new license is assigned and no public redistribution permission is inferred.
+Before distributing this package, obtain an applicable grant from the rights
+holders. Source attribution and this notice must be retained.
+
+tests/original_oracle.py contains verbatim numerical function bodies from the
+pinned commit, solely for regression comparison. It is excluded from the wheel.
+See docs/extraction_manifest.json and docs/source_provenance.md.

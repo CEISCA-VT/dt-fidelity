@@ -1,0 +1,24 @@
+{
+  "level": "A: archived evidence verification",
+  "seed_rows": 360,
+  "cells": 120,
+  "max_absolute_difference": 2.220446049250313e-16,
+  "cases": 40,
+  "classifications": {
+    "persistent_under_ideal": 6,
+    "delivery_remediable": 30,
+    "already_qualified_degraded": 4
+  },
+  "practical_restored": 27,
+  "patterns": {
+    "000": 6,
+    "001": 3,
+    "011": 27,
+    "111": 4
+  },
+  "input_sha256": {
+    "per_run_response_surface.csv": "12e35a618ecc8e0d19d8edc946054311fefba00f974d37917deed4e93025f8da",
+    "per_sequence_response_surface.csv": "1df77e4e184de7318e2eab9dfa0081b960cfc39e3ba8fd06ce06bc32c3757c03",
+    "sequence_service_case_ledger.csv": "bdfa26362a9d1dccb0f54ade30d90af926ba94b560260a186352ec2fc132409b"
+  }
+}
