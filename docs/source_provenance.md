@@ -89,9 +89,10 @@ Before extraction, repository-root license files and tracked license/copyright
 paths were checked. No repository-wide license or grant was found. Numerical
 modules carry no additional copyright/license notices. The only tracked
 `LICENSE` is in the unrelated `ugv01_gps_dev` subtree, which was not copied.
-The user's explicit instruction authorizes this local research extraction;
-public redistribution rights have not been established. No new license is
-assigned. Attribution and rights limitations are retained in [NOTICE](../NOTICE).
+The author confirms they created the code and have rights to publish the
+extracted code and evidence in this repository. No downstream reuse license has
+been selected or assigned. Attribution and this distinction are recorded in
+[NOTICE](../NOTICE).
 
 Copied evidence is restricted to the three primary delivery points: 360 seed
 rows, 120 sequence cells, 40 ledger cases, a sanitized evidence manifest, and

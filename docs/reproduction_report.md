@@ -77,5 +77,6 @@ This report covers the primary three-condition ledger, not reproduction of
 query-phase sensitivity, network captures, or optimization claims. Synthetic
 unit-test traces establish edge-case behavior only; none is counted as
 historical i2Nav reproduction. Reference quality/uncertainty and availability
-remain the responsibility of each future experiment. Rights for redistribution
-remain unresolved as explained in [source provenance](source_provenance.md).
+remain the responsibility of each future experiment. The author confirms rights
+to publish this extraction; a downstream reuse license has not been selected,
+as explained in [source provenance](source_provenance.md).

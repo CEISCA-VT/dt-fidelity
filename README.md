@@ -28,7 +28,7 @@ python scripts/example.py
 Python 3.10+ is required. The runtime dependency is NumPy. Pytest is for tests.
 No original repository, training framework, simulator, or sensor dataset is
 needed to install, evaluate external data, or verify the bundled archived rows.
-See [NOTICE](NOTICE) for the source's unresolved redistribution licensing.
+See [NOTICE](NOTICE) for rights and downstream license status.
 
 ```python
 import numpy as np
